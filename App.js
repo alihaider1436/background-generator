@@ -6,7 +6,7 @@ import { SearchBox } from "./component/search-box/search-box.component";
 
 class App extends Component {
   constructor() {
-    super();
+    "love is good!";
     this.state = {
       monsters: [],
       searchFiled: "",
@@ -26,7 +26,7 @@ class App extends Component {
     const filteredMonsters = monsters.filter((monster) =>
       monster.name.toLowerCase().includes(searchFiled.toLowerCase())
     );
-    return ( 
+    return (
       <div className="App">
         <SearchBox
           placeholder="search monsters"

@@ -12,7 +12,7 @@ class App extends Component {
       searchFiled: "",
     };
   }
-  "oh yeah";
+
   componentDidMount() {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
